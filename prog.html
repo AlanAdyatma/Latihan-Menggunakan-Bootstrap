@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siap Suruh - Kami Siap Disuruh </title>
+  <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+  <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+        <img src="asset/img/ChatGPT Image Nov 6, 2025, 09_49_36 AM.png" alt="Logo" 
+            style="height: 40px; width: 40px; margin-right: 10px; border-radius: 50%;">
+        Siap Suruh
+      </a>
+
+      <!-- Tombol Hamburger (muncul di layar kecil) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu Navbar -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section id="home" class="hero d-flex align-items-center text-center text-white" style="height: 100vh; background: url('asset/img/pexels-denniz-futalan-339724-4956918.jpg') center/cover no-repeat;">
+    <div class="container">
+      <h1 class="fw-bold">Kami Siap Disuruh Kapan Saja!!!</h1>
+      <p>Bersih-bersih, Antar Barang, Perbaikan Alat <br> semua bisa kami bantu.</p>
+      <a href="#layanan" class="btn btn-danger btn-lg mt-3">Lihat Layanan</a>
+    </div>
+  </section>
+
+  <!-- Layanan -->
+  <section id="layanan" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="mb-4 fw-bold">Layanan Kami</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card layanan-card">
+            <img src="asset/img/pexels-alialcantara-16817331.jpg" class="card-img-top" alt="Bersih-bersih">
+            <div class="card-body">
+              <h5 class="card-title">Bersih-bersih Rumah</h5>
+              <p class="card-text">Kami siap membantu menjaga kebersihan rumah Anda.</p>
+              <a href="#" class="btn btn-outline-danger">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card layanan-card">
+            <img src="asset/img/pexels-hleb-u-150087874-10517092.jpg" class="card-img-top" alt="Antar Barang">
+            <div class="card-body">
+              <h5 class="card-title">Antar Barang</h5>
+              <p class="card-text">Perlu bantuan kirim barang? Kami siap jalan!</p>
+              <a href="#kontak" class="btn btn-outline-danger">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card layanan-card">
+            <img src="asset/img/pexels-caio-64609.jpg" class="card-img-top" alt="Perbaikan">
+            <div class="card-body">
+              <h5 class="card-title">Perbaikan Alat</h5>
+              <p class="card-text">Kami bantu memperbaiki alat-alat elektronik Anda.</p>
+              <a href="#" class="btn btn-outline-danger">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="py-5 d-flex align-items-center text-center">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Tentang Kami</h2>
+      <p class="lead">
+        <strong>Jasa Siap Suruh</strong> hadir buat kamu yang butuh bantuan cepat tanpa ribet!
+        Mau bersihin rumah, nganter barang, atau benerin alat yang rusak? Tinggal panggil aja,
+        tim kami siap bantu kapan pun dibutuhkan. Kami percaya, hidup itu harus simpel
+        biar kamu bisa fokus ke hal-hal penting, urusan kecil biar kami yang beresin!
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Kontak -->
+  <section id="kontak" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">Hubungi Kami</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Nama Anda" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Pesan Anda" required></textarea>
+        </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-danger px-5">Kirim Pesan</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Jasa Siap Suruh. Semua Hak Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
